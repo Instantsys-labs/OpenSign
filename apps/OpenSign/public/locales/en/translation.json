@@ -93,7 +93,7 @@
       "Manage templates": "Manage templates",
       "Embedding": "Embedding"
     },
-    "OpenSign™ Drive": "{{appName}} Drive",
+    "Instant Systems Drive": "{{appName}} Drive",
     "Reports": "Reports",
     "Documents": "Documents",
     "Documents-Children": {
@@ -894,7 +894,7 @@
   "please-provide-templateid": "Please provide templateid",
   "this-template-is-not-public": "This template is not public",
   "invalid-templateid": "Invalid templateid",
-  "contact-billing-at-opensign": "To add more seats, please contact OpenSign™ at <1>billing@opensignlabs.com</1> for assistance",
+  "contact-billing-at-opensign": "To add more seats, please contact Instant Systems at <1>billing@opensignlabs.com</1> for assistance",
   "title-length-alert": "Title must be at most 250 characters long.",
   "note-length-alert": "Note must be at most 200 characters long.",
   "description-length-alert": "Description must be at most 500 characters long.",

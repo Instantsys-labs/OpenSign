@@ -17,9 +17,9 @@ jobs:
     strategy:
       matrix:
         include:
-          - image: opensign/opensign
+          - image: ghcr.io/instantsys-labs/opensign
             dockerfile: apps/OpenSign/Dockerhubfile
-          - image: opensign/opensignserver
+          - image: ghcr.io/instantsys-labs/opensignserver
             dockerfile: apps/OpenSignServer/Dockerhubfile
     steps:
       -
@@ -29,8 +29,8 @@ jobs:
         name: Login to Docker Hub
         uses: docker/login-action@v2
         with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
       - 
         name: Extract metadata (tags, labels) for Docker
         id: meta

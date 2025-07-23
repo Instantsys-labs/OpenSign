@@ -93,7 +93,7 @@
       "Manage templates": "Gérer les modèles",
       "Embedding": "Intégration"
     },
-    "OpenSign™ Drive": "Lecteur {{appName}}",
+    "Instant Systems Drive": "Lecteur {{appName}}",
     "Reports": "Rapports",
     "Documents": "Documents",
     "Documents-Children": {
@@ -894,7 +894,7 @@
   "please-provide-templateid": "Veuillez fournir templateid",
   "this-template-is-not-public": "Ce template n'est pas public",
   "invalid-templateid": "templateid invalide",
-  "contact-billing-at-opensign": "Pour ajouter plus de places, veuillez contacter OpenSign™ à l'adresse <1>billing@opensignlabs.com</1> pour obtenir de l'aide.",
+  "contact-billing-at-opensign": "Pour ajouter plus de places, veuillez contacter Instant Systems à l'adresse <1>billing@opensignlabs.com</1> pour obtenir de l'aide.",
   "title-length-alert": "Le titre doit comporter au maximum 250 caractères.",
   "note-length-alert": "La note doit comporter au maximum 200 caractères.",
   "description-length-alert": "La description doit comporter au maximum 500 caractères",

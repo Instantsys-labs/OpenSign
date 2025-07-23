@@ -77,7 +77,7 @@ function PlaceHolderSign() {
   const copyUrlRef = useRef(null);
   const isShowModal = useSelector((state) => state.widget.isShowModal);
   const appName =
-    "OpenSign™";
+    "Instant Systems";
   const editorRef = useRef();
   const { state } = useLocation();
   const navigate = useNavigate();

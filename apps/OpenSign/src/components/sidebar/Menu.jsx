@@ -4,8 +4,8 @@ import { NavLink } from "react-router";
 
 const Menu = ({ item, isOpen, closeSidebar }) => {
   const appName =
-    "OpenSign™";
-  const drivename = appName === "OpenSign™" ? "OpenSign™" : "";
+    "Instant Systems";
+  const drivename = appName === "Instant Systems" ? "Instant Systems" : "";
   const { t } = useTranslation();
   return (
     <li key={item.title} role="none" className="my-0.5">

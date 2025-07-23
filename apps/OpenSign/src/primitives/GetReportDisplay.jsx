@@ -46,8 +46,8 @@ const ReportTable = (props) => {
   const titleRef = useRef(null);
   const titleElement = useElSize(titleRef);
   const appName =
-    "OpenSign™";
-  const drivename = appName === "OpenSign™" ? "OpenSign™" : "";
+    "Instant Systems";
+  const drivename = appName === "Instant Systems" ? "Instant Systems" : "";
   const { t } = useTranslation();
   const navigate = useNavigate();
   const location = useLocation();
@@ -1787,7 +1787,7 @@ const ReportTable = (props) => {
                         {props.heading.includes("Folder") && (
                           <td className="p-2 text-center">
                             {item?.Folder?.Name ||
-                              t("sidebar.OpenSign™ Drive", {
+                              t("sidebar.Instant Systems Drive", {
                                 appName: drivename
                               })}
                           </td>

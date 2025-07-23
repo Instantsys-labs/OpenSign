@@ -4,8 +4,8 @@ import { NavLink } from "react-router";
 
 const Submenu = ({ item, closeSidebar, toggleSubmenu, submenuOpen }) => {
   const appName =
-    "OpenSign™";
-  const drivename = appName === "OpenSign™" ? "OpenSign™" : "";
+    "Instant Systems";
+  const drivename = appName === "Instant Systems" ? "Instant Systems" : "";
   const { t } = useTranslation();
   const { title, icon, children } = item;
   return (

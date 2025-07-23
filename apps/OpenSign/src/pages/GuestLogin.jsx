@@ -76,7 +76,7 @@ function GuestLogin() {
     localStorage.clear(); // Clears everything
     localStorage.setItem(
       "appname",
-        "OpenSign™"
+        "Instant Systems"
     );
     //save isGuestSigner true in local to handle login flow header in mobile view
     localStorage.setItem("isGuestSigner", true);

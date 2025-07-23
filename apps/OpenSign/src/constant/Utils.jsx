@@ -1228,7 +1228,7 @@ export const addInitialData = (signerPos, setXyPosition, value, userId) => {
 //function for embed document id
 export const embedDocId = async (pdfOriginalWH, pdfDoc, documentId) => {
   const appName =
-    "OpenSign™";
+    "Instant Systems";
   // `fontBytes` is used to embed custom font in pdf
   const fontBytes = await fileasbytes(
     "https://cdn.opensignlabs.com/webfonts/times.ttf"
@@ -2433,7 +2433,7 @@ export const getAppLogo = async () => {
         domain: domain
       });
       if (tenant) {
-          localStorage.setItem("appname", "OpenSign™");
+          localStorage.setItem("appname", "Instant Systems");
         return {
           logo: tenant?.logo,
           user: tenant?.user
@@ -2549,7 +2549,7 @@ export const handleSendOTP = async (email) => {
 };
 export const fetchUrl = async (url, pdfName) => {
   const appName =
-    "OpenSign™";
+    "Instant Systems";
   try {
     const response = await fetch(url);
     if (!response.ok) {
@@ -2706,7 +2706,7 @@ export const handleDownloadCertificate = async (
   isZip
 ) => {
   const appName =
-    "OpenSign™";
+    "Instant Systems";
   if (pdfDetails?.length > 0 && pdfDetails[0]?.CertificateUrl) {
     try {
       await fetch(pdfDetails[0] && pdfDetails[0]?.CertificateUrl);
@@ -3331,7 +3331,7 @@ export const flattenPdf = async (pdfFile) => {
 
 export const mailTemplate = (param) => {
   const appName =
-    "OpenSign™";
+    "Instant Systems";
   const logo =
         `<div style='padding:10px'><img src='https://qikinnovation.ams3.digitaloceanspaces.com/logo.png' height='50' /></div>`;
 

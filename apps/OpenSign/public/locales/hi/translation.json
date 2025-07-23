@@ -93,7 +93,7 @@
       "Manage templates": "टेम्पलेट प्रबंधित करें",
       "Embedding": "एम्बेडिंग"
     },
-    "OpenSign™ Drive": "{{appName}} ड्राइव",
+    "Instant Systems Drive": "{{appName}} ड्राइव",
     "Reports": "रिपोर्ट",
     "Documents": "दस्तावेज़",
     "Documents-Children": {
@@ -894,7 +894,7 @@
   "please-provide-templateid": "कृपया टेम्पलेट आईडी प्रदान करें",
   "this-template-is-not-public": "यह टेम्पलेट सार्वजनिक नहीं है",
   "invalid-templateid": "अमान्य टेम्पलेट आईडी",
-  "contact-billing-at-opensign": "अधिक सीटें जोड़ने के लिए, कृपया सहायता के लिए <1>billing@opensignlabs.com</1> पर OpenSign™ से संपर्क करें",
+  "contact-billing-at-opensign": "अधिक सीटें जोड़ने के लिए, कृपया सहायता के लिए <1>billing@opensignlabs.com</1> पर Instant Systems से संपर्क करें",
   "title-length-alert": "शीर्षक अधिकतम 250 वर्ण लंबा होना चाहिए।",
   "note-length-alert": "टिप्पणी अधिकतम 200 वर्ण लंबी होनी चाहिए।",
   "description-length-alert": "विवरण अधिकतम 500 वर्ण लंबा होना चाहिए।",

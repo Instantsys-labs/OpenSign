@@ -8,7 +8,7 @@ dotenv.config();
 
 export const cloudServerUrl = 'http://localhost:8080/app';
 export const serverAppId = process.env.APP_ID || 'opensign';
-export const appName = 'OpenSign™';
+export const appName = 'Instant Systems';
 
 export const MAX_NAME_LENGTH = 250;
 export const MAX_NOTE_LENGTH = 200;

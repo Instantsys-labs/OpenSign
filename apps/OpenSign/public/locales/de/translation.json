@@ -93,7 +93,7 @@
       "Manage templates": "Vorlagen verwalten",
       "Embedding": "Einbetten"
     },
-    "OpenSign™ Drive": "{{appName}} Drive",
+    "Instant Systems Drive": "{{appName}} Drive",
     "Documents": "Dokumente",
     "Reports": "Berichte",
     "Documents-Children": {
@@ -894,7 +894,7 @@
   "please-provide-templateid": "Bitte geben Sie templateid an",
   "this-template-is-not-public": "Dieses template ist nicht öffentlich",
   "invalid-templateid": "Ungültige templateid",
-  "contact-billing-at-opensign": "Um weitere Plätze hinzuzufügen, kontaktieren Sie bitte OpenSign™ unter <1>billing@opensignlabs.com</1> für Unterstützung.",
+  "contact-billing-at-opensign": "Um weitere Plätze hinzuzufügen, kontaktieren Sie bitte Instant Systems unter <1>billing@opensignlabs.com</1> für Unterstützung.",
   "title-length-alert": "Der Titel darf höchstens 250 Zeichen lang sein.",
   "note-length-alert": "Die Notiz darf höchstens 200 Zeichen lang sein.",
   "description-length-alert": "Die Beschreibung darf höchstens 500 Zeichen lang sein.",

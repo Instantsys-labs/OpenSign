@@ -81,7 +81,7 @@ function SignYourSelf() {
     (state) => state.widget.saveSignCheckbox
   );
   const appName =
-    "OpenSign™";
+    "Instant Systems";
   const divRef = useRef(null);
   const nodeRef = useRef(null);
   const pdfRef = useRef();
