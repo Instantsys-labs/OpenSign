@@ -3,6 +3,7 @@ name: ci
 permissions:
   contents: read        # allow checkout & metadata-action to read repo
   id-token: write       # needed by docker/metadata-action v4
+  packages: write
 
 on:
   push:
