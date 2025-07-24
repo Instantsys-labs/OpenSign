@@ -101,11 +101,11 @@ function AgreementContent(props) {
                 {t("term-cond-p29", { appName: appName })}
               </span>
               <a
-                href="www.opensignlabs.com"
+                href="https://instantsys.com/"
                 target="_blank"
                 className="text-blue-700 cursor-pointer"
               >
-                www.opensignlabs.com
+                https://instantsys.com/
               </a>
 
               <span>{t("term-cond-p30")}</span>

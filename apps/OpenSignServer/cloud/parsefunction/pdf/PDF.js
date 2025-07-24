@@ -105,8 +105,8 @@ async function sendNotifyMail(doc, signUser, mailProvider, publicUrl) {
   try {
     const TenantAppName = appName;
     const logo =
-      "<img src='https://qikinnovation.ams3.digitaloceanspaces.com/logo.png' height='50' style='padding:20px'/>";
-    const opurl = ` <a href=www.opensignlabs.com target=_blank>here</a>`;
+      "<img src='https://instantsys.com/web/image/website/1/logo/Instant%20Systems%20Inc.?unique=987a48f' height='50' style='padding:20px'/>";
+    const opurl = ` <a href=https://instantsys.com/ target=_blank>here</a>`;
     const auditTrailCount = doc?.AuditTrail?.filter(x => x.Activity === 'Signed')?.length || 0;
     const signersCount = doc?.Placeholders?.length;
     const remaingsign = signersCount - auditTrailCount;
@@ -156,8 +156,8 @@ async function sendCompletedMail(obj) {
   const pdfName = doc.Name;
   const TenantAppName = appName;
   const logo =
-    "<img src='https://qikinnovation.ams3.digitaloceanspaces.com/logo.png' height='50' style='padding:20px'/>";
-  const opurl = ` <a href=www.opensignlabs.com target=_blank>here</a>`;
+    "<img src='https://instantsys.com/web/image/website/1/logo/Instant%20Systems%20Inc.?unique=987a48f' height='50' style='padding:20px'/>";
+  const opurl = ` <a href="https://instantsys.com/" target=_blank>here</a>`;
   let signersMail;
   if (doc?.Signers?.length > 0) {
     const isOwnerExistsinSigners = doc?.Signers?.find(x => x.Email === sender.Email);

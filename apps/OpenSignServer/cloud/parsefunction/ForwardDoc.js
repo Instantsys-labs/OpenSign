@@ -1,5 +1,5 @@
-import axios from 'axios';
-import { appName, cloudServerUrl, serverAppId } from '../../Utils.js';
+import axios from "axios";
+import { appName, cloudServerUrl, serverAppId } from "../../Utils.js";
 
 export default async function forwardDoc(request) {
   try {
@@ -36,8 +36,8 @@ export default async function forwardDoc(request) {
       try {
         let mailRes;
         for (let i = 0; i < recipients.length; i++) {
-          const logo = `<img src='https://qikinnovation.ams3.digitaloceanspaces.com/logo.png' height='50' style='padding:20px'/>`;
-          const opurl = ` <a href='www.opensignlabs.com' target=_blank>here</a>`;
+          const logo = `<img src='https://instantsys.com/web/image/website/1/logo/Instant%20Systems%20Inc.?unique=987a48f' height='50' style='padding:20px'/>`;
+          const opurl = ` <a href='https://instantsys.com/' target=_blank>here</a>`;
           const themeColor = '#47a3ad';
 
           let params = {

@@ -233,9 +233,9 @@ export const mailTemplate = param => {
   const themeColor = '#47a3ad';
   const subject = `${param.senderName} has requested you to sign "${param.title}"`;
   const AppName = appName;
-  const logo = `<img src='https://qikinnovation.ams3.digitaloceanspaces.com/logo.png' height='50' />`;
+  const logo = `<img src='https://instantsys.com/web/image/website/1/logo/Instant%20Systems%20Inc.?unique=987a48f' height='50' />`;
 
-  const opurl = ` <a href='www.opensignlabs.com' target=_blank>here</a>`;
+  const opurl = ` <a href='https://instantsys.com/' target=_blank>here</a>`;
 
   const body =
     "<html><head><meta http-equiv='Content-Type' content='text/html;charset=UTF-8' /></head><body><div style='background-color:#f5f5f5;padding:20px'><div style='background:white;padding-bottom:20px'><div style='padding:10px'>" +

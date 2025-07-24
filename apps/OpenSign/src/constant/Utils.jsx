@@ -3333,10 +3333,10 @@ export const mailTemplate = (param) => {
   const appName =
     "Instant Systems";
   const logo =
-        `<div style='padding:10px'><img src='https://qikinnovation.ams3.digitaloceanspaces.com/logo.png' height='50' /></div>`;
+        `<div style='padding:10px'><img src='https://instantsys.com/web/image/website/1/logo/Instant%20Systems%20Inc.?unique=987a48f' height='50' /></div>`;
 
   const opurl =
-        ` <a href='https://www.opensignlabs.com' target=_blank>here</a>.</p></div></div></body></html>`;
+        ` <a href='https://https://instantsys.com/' target=_blank>here</a>.</p></div></div></body></html>`;
 
   const subject = `${param.senderName} has requested you to sign "${param.title}"`;
   const body =
